@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+          integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link
+            href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700&display=swap&subset=cyrillic"
+            rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+</head>
+<body>
+    <section class="welcome-section" id="welcome-section">
+        <header class="menu">
+                <div class="logo">
+                    <a href="#welcome-section" class="logo-link">Vryblevska</a>
+                </div>
+            <input type="checkbox" class="menu-checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="checkbox-btn">
+                <span class="checkbox-btn-item"></span>
+            </label>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="welcome-section-text">
+            <h1 class="welcome-section-title">Hey I am Nastia</h1>
+            <p class="welcome-section-slogan">a web developer</p>
+            <div class="welcome-section-arrow">
+                <a href="#projects" class="welcome-section-link"><i class="fas fa-angle-down"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+            <div class="section-text">
+                <h2 class="section-title">About me</h2>
+                <div class="section-hr"></div>
+            </div>
+            <div class="about-flex">
+                <div class="my-foto">
+                    <img src="images/my-photo.png" alt="my-photo" class="aboutFlex__foto-size">
+                </div>
+                <div class="about-me-text">
+                    <p>Hello! I'm a web developer residing in Zhytomyr region. I graduated from IT-Hub's
+                        Front-End developer program where I learned a wide range of best practices in web development. Also I completed course Responsive Web Design Certification at a FreeCodeCamp learning platform.
+                    </p>
+                    <p>I have 1 year experience as HTML coder in Viseven Group.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="section-text">
+            <h2 class="section-title">My Works</h2>
+            <div class="section-hr"></div>
+        </div>
+        <div class="project-tile">
+            <div class="projects-img">
+                <a href="projects/Product-Landing-Page/index.html" target="_blank" class="projects-link">
+                    <img src="images/product-landing-page.png" alt="product lending page">
+                </a>
+            </div>
+            <div class="projects-text">
+                <a href="projects/Product-Landing-Page/index.html" target="_blank" class="projects-link">
+                    <h2 class="project-title">Product Lending Page</h2>
+                </a>
+                <p class="projects-subtitle">Responsive site made with HTML5, CSS3</p>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+            <div class="section-text">
+                <h2 class="section-title">Contact me</h2>
+                <div class="section-hr"></div>
+            </div>
+            <div class="contacts-flex">
+                <div class="form">
+                    <form action="https://formspree.io/nastia.vrublevska89@gmail.com" method="POST" class="contact-form">
+                        <div class="form-container">
+                            <input type="text" name="name" placeholder="Your name" size="30" class="contact-input"
+                                   required>
+                            <input type="email" name="_replyto" placeholder="Your email" size="30"
+                                   class="contact-input" required>
+                        </div>
+
+                        <textarea class="contact-textarea" name="message" placeholder="Your message" rows="8"
+                                  required=""></textarea>
+                        <input type="submit" value="Send" class="contact-btm">
+                    </form>
+                </div>
+                <div class="social-links">
+                    <div class="social-links-item">
+                        <a href="https://github.com/NastiaVr" target="_blank" class="social-link" id="profile-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="social-links-item">
+                        <a href="https://www.facebook.com/profile.php?id=100011457242217" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="social-links-item">
+                        <a href="https://www.linkedin.com/feed/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="wrap">
+            <p class="footer-text">Copyright © 2019 by Vrublevska. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
